@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: min(100% - 40px, 1340px);
+  height: 100vh;
+  gap: 20px;
+}
+
+.container,
+.randomizer-container,
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.randomizer-container,
+.counter-container {
+  width: 80%;
+  height: 100px;
+  gap: 10px;
+}
+
+.random-btn,
+.counter-btn {
+  width: 50%;
+  height: 40px;
+}
